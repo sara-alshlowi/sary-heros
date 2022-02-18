@@ -1,0 +1,26 @@
+.layout {
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.header {
+  height: 2.5rem;
+  background-color: #ffffff;
+  padding: 0 2vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.content {
+  height: 90vh;
+}
+
+.footer {
+  bottom: 0;
+  height: 3vh;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
