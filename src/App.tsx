@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import "./App.css";
 import RouterOutlet from "./router";
 import { BrowserRouter as Router } from "react-router-dom";
+import "antd/dist/antd.css";
 
 const Layout = lazy(() => import("./components/Layout"));
 
